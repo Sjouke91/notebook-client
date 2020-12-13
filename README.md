@@ -1,15 +1,15 @@
-# Hi there, thanks for visiting my Notebook project!
+# Hi there, thank you for visiting my Notebook project!
 
-## What this app is about
+## What is this app is about
 
-Notebooks is an app made to support the future students of the codaisseur accademy. With this app we've created a central place to save, read and share notes regarding the topics thaught in class. Our goal was to make an app that we wished we had during the course, an app that would have made our study process a little easier. Allthough there is a lot that could be improved I think we have succeeded in the initial goal and finished a very complete application.
+Notebooks is an app made to support the future students of the Codaisseur academy. With this app we've created a central place to save, read and share notes regarding the topics thaught in class. Our goal was to make an app that we wished we had during the course, an app that would have made our study process a little easier. Allthough there is a lot that could be improved I think we have succeeded in the initial goal and finished a very complete application.
 
 Take a look at [Notebooks](https://codebooks.netlify.app) 
 
 This project is made during the Codaisseur code academy group project week. In a timeframe of one week we've made both the client and a server.
 
 - Notebooks [Front End](https://github.com/Sjouke91/notebook-client)
-- Fittrack [Back End](https://github.com/Sjouke91/notebook-server)
+- Notebooks [Back End](https://github.com/Sjouke91/notebook-server)
 
 ### Languages and Tools:
 
