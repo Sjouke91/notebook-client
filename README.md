@@ -54,8 +54,8 @@ as a user:
 
 ### Wireframe & database model
 
-<img align="left" alt="DatabaseModel" width="100%" src="./img/Wireframe.png" />
-<img align="left" alt="DatabaseModel" width="100%" src="./img/dbdiagram.png" />
+<img align="left" alt="DatabaseModel" width="100%" src="./src/img/Wireframe.png" />
+<img align="left" alt="DatabaseModel" width="100%" src="./src/img/dbdiagram.png" />
 
 <br />
 <br />
