@@ -1,4 +1,4 @@
-# Hi there, thanks for visiting my Notebook project!
+# Hi there, thank you for visiting my Notebook project!
 
 ## What this app is about
 
