@@ -9,7 +9,7 @@ Take a look at [Notebooks](https://codebooks.netlify.app)
 This project is made during the Codaisseur code academy group project week. In a timeframe of one week we've made both the client and a server.
 
 - Notebooks [Front End](https://github.com/Sjouke91/notebook-client)
-- Fittrack [Back End](https://github.com/Sjouke91/notebook-server)
+- Notebooks [Back End](https://github.com/Sjouke91/notebook-server)
 
 ### Languages and Tools:
 
