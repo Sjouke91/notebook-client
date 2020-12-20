@@ -96,6 +96,11 @@ export default function MyNotebooksPage() {
     });
   }
 
+  //filter on date
+  filteredNotebooks = filteredNotebooks?.sort((a, b) => {
+    return a.id - b.id;
+  });
+
   return (
     <div className="my-notebooks">
       <Typography align="center" color="primary" variant="h3">
@@ -231,6 +236,7 @@ export default function MyNotebooksPage() {
               notebookName={notebook.name}
               createdAt={new Date(notebook.createdAt).toDateString()}
               notebookId={notebook.id}
+              notebookState={notebook.private}
             />
           );
         })}
