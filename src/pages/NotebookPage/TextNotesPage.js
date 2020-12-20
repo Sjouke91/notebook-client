@@ -12,8 +12,6 @@ export default function TextNotesPage() {
   const notebook = useSelector(selectNotebook);
 
   const notes = notebook.notes;
-  console.log("notebook id", notebookId);
-  console.log(notes);
 
   return (
     <div className="notebook">

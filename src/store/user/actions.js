@@ -34,8 +34,6 @@ export const newNotebookSucces = (newNotebook) => ({
 export function newNotebook(name, subjectId) {
   return async (dispatch, getState) => {
     const token = selectToken(getState());
-    // console.log("token", token);
-    console.log("req", name, subjectId);
     dispatch(appLoading());
 
     const response = await axios.post(
@@ -60,6 +58,24 @@ export function newNotebook(name, subjectId) {
     dispatch(appDoneLoading());
   };
 }
+
+export function editPublicState(isPrivate, notebookId) {
+  return async (dispatch, getState) => {
+    const token = selectToken(getState());
+    dispatch(appLoading());
+
+    const response = await axios.patch(`${apiUrl}/notebooks/${notebookId}`, {
+      isPrivate,
+    });
+    dispatch(updatePrivateSettings(notebookId));
+    dispatch(appDoneLoading());
+  };
+}
+
+export const updatePrivateSettings = (notebookId) => ({
+  type: "PRIVATE_SETTINGS",
+  payload: notebookId,
+});
 
 export const signUp = (firstName, lastName, username, email, password) => {
   return async (dispatch, getState) => {
@@ -230,13 +246,11 @@ export const postProfilePic = (data) => {
           body: data,
         }
       );
-      console.log("what is response", res);
 
       const image = await res.json();
 
       const imageUrl = image.secure_url;
 
-      console.log("imageurl", imageUrl);
       dispatch(updateProfilePic(imageUrl));
     } catch (error) {
       console.error(error);

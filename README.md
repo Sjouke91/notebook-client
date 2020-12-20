@@ -1,3 +1,4 @@
+
 # Hi there, thank you for visiting my Notebook project!
 
 ## What is this app is about
@@ -6,10 +7,12 @@ Notebooks is an app made to support the future students of the Codaisseur academ
 
 Take a look at [Notebooks](https://codebooks.netlify.app) 
 
+
 This project is made during the Codaisseur code academy group project week. In a timeframe of one week we've made both the client and a server.
 
 - Notebooks [Front End](https://github.com/Sjouke91/notebook-client)
 - Notebooks [Back End](https://github.com/Sjouke91/notebook-server)
+
 
 ### Languages and Tools:
 
@@ -54,8 +57,10 @@ as a user:
 
 ### Wireframe & database model
 
+
 <img align="left" alt="DatabaseModel" width="100%" src="./img/Wireframe.png" />
 <img align="left" alt="DatabaseModel" width="100%" src="./img/dbdiagram.png" />
+
 
 <br />
 <br />

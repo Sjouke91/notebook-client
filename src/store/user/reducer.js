@@ -22,10 +22,23 @@ export default function user(state = initialState, action) {
     case TOKEN_STILL_VALID:
       return { ...state, ...action.payload };
 
-    case "newNotebookSucces": {
+    case TOKEN_STILL_VALID:
+      return { ...state, ...action.payload };
+
+    case "PRIVATE_SETTINGS": {
+      const updatedNotebooks = state.notebooks.map((notebook) => {
+        if (notebook.id === action.payload) {
+          const updatedNotebook = {
+            ...notebook,
+            private: !notebook.private,
+          };
+          return updatedNotebook;
+        }
+        return notebook;
+      });
       return {
         ...state,
-        notebooks: [...state.notebooks, action.payload],
+        notebooks: updatedNotebooks,
       };
     }
 
